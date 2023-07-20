@@ -1,0 +1,16 @@
+{
+  "name": "chroma",
+  "version": "1.0.0",
+  "description": "Vector Database based on chroma for openai project with langchain",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Lopez Slevin",
+  "license": "MIT",
+  "dependencies": {
+    "chromadb": "^1.5.3",
+    "langchain": "^0.0.109",
+    "openai": "^3.3.0"
+  }
+}
