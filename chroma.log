@@ -1,0 +1,1035 @@
+2023-07-14 14:36:05 INFO     uvicorn.error   Will watch for changes in these directories: ['/chroma']
+2023-07-14 14:36:05 INFO     uvicorn.error   Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2023-07-14 14:36:05 INFO     uvicorn.error   Started reloader process [1] using WatchFiles
+2023-07-14 14:36:06 INFO     chromadb.telemetry.posthog Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-07-14 14:36:06 DEBUG    chromadb.config Starting component System
+2023-07-14 14:36:06 DEBUG    chromadb.config Starting component Posthog
+2023-07-14 14:36:06 DEBUG    chromadb.config Starting component Clickhouse
+2023-07-14 14:36:06 DEBUG    chromadb.config Starting component LocalAPI
+2023-07-14 14:36:06 INFO     uvicorn.error   Started server process [8]
+2023-07-14 14:36:06 INFO     uvicorn.error   Waiting for application startup.
+2023-07-14 14:36:06 INFO     uvicorn.error   Application startup complete.
+2023-07-14 14:36:39 INFO     uvicorn.access  172.19.0.1:39216 - "GET / HTTP/1.1" 404
+2023-07-14 14:36:39 INFO     uvicorn.access  172.19.0.1:39216 - "GET /favicon.ico HTTP/1.1" 404
+2023-07-14 14:50:47 INFO     uvicorn.error   Shutting down
+2023-07-14 14:50:47 INFO     uvicorn.error   Waiting for application shutdown.
+2023-07-14 14:50:47 INFO     uvicorn.error   Application shutdown complete.
+2023-07-14 14:50:47 INFO     uvicorn.error   Finished server process [8]
+2023-07-14 14:50:47 INFO     uvicorn.error   Stopping reloader process [1]
+2023-07-14 14:50:58 INFO     uvicorn.error   Will watch for changes in these directories: ['/chroma']
+2023-07-14 14:50:58 INFO     uvicorn.error   Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2023-07-14 14:50:58 INFO     uvicorn.error   Started reloader process [1] using WatchFiles
+2023-07-14 14:50:59 INFO     chromadb.telemetry.posthog Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-07-14 14:50:59 DEBUG    chromadb.config Starting component System
+2023-07-14 14:50:59 DEBUG    chromadb.config Starting component Posthog
+2023-07-14 14:50:59 DEBUG    chromadb.config Starting component Clickhouse
+2023-07-14 14:50:59 DEBUG    chromadb.config Starting component LocalAPI
+2023-07-14 14:50:59 INFO     uvicorn.error   Started server process [8]
+2023-07-14 14:50:59 INFO     uvicorn.error   Waiting for application startup.
+2023-07-14 14:50:59 INFO     uvicorn.error   Application startup complete.
+2023-07-14 14:52:13 INFO     uvicorn.access  172.20.0.1:41454 - "GET /api/v1/heartbeat HTTP/1.1" 200
+2023-07-14 14:52:14 INFO     uvicorn.access  172.20.0.1:41454 - "GET /favicon.ico HTTP/1.1" 404
+2023-07-14 15:04:17 INFO     uvicorn.access  172.20.0.1:33082 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:05:05 INFO     uvicorn.access  172.20.0.1:41366 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:06:31 INFO     uvicorn.access  172.20.0.1:37844 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:07:29 INFO     uvicorn.access  172.20.0.1:51266 - "DELETE /api/v1/collections/my_collection HTTP/1.1" 200
+2023-07-14 15:07:32 INFO     uvicorn.access  172.20.0.1:51270 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:15:59 INFO     uvicorn.access  172.20.0.1:40996 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:33:43 INFO     uvicorn.access  172.20.0.1:51754 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:33:59 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:33:59 INFO     uvicorn.access  172.20.0.1:57600 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:34:00 INFO     uvicorn.access  172.20.0.1:57602 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:34:00 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:34:00 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:34:00 INFO     uvicorn.access  172.20.0.1:57600 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:34:02 WARNING  chromadb.db.index.hnswlib Number of requested results 4 is greater than number of elements in index 3, updating n_results = 3
+2023-07-14 15:34:02 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 15:34:02 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016021728515625
+2023-07-14 15:34:02 INFO     uvicorn.access  172.20.0.1:57600 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:34:06 INFO     uvicorn.access  172.20.0.1:51768 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:34:08 INFO     uvicorn.access  172.20.0.1:51768 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:34:21 WARNING  chromadb.db.index.hnswlib Number of requested results 4 is greater than number of elements in index 3, updating n_results = 3
+2023-07-14 15:34:21 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.1920928955078125e-06
+2023-07-14 15:34:21 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00011444091796875
+2023-07-14 15:34:21 INFO     uvicorn.access  172.20.0.1:59786 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:35:16 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:35:16 INFO     uvicorn.access  172.20.0.1:35414 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:35:16 INFO     uvicorn.access  172.20.0.1:35418 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:35:16 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:35:16 INFO     uvicorn.access  172.20.0.1:35414 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:35:18 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.337860107421875e-06
+2023-07-14 15:35:18 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001621246337890625
+2023-07-14 15:35:18 INFO     uvicorn.access  172.20.0.1:35414 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:35:58 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:35:58 INFO     uvicorn.access  172.20.0.1:54484 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:35:58 INFO     uvicorn.access  172.20.0.1:54496 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:35:58 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:35:58 INFO     uvicorn.access  172.20.0.1:54484 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:36:00 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 15:36:00 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015163421630859375
+2023-07-14 15:36:00 INFO     uvicorn.access  172.20.0.1:54484 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:37:04 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:37:04 INFO     uvicorn.access  172.20.0.1:45942 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:37:04 INFO     uvicorn.access  172.20.0.1:45958 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:37:04 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:37:04 INFO     uvicorn.access  172.20.0.1:45942 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:37:05 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 15:37:05 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00012731552124023438
+2023-07-14 15:37:05 INFO     uvicorn.access  172.20.0.1:45942 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:47:01 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:47:01 INFO     uvicorn.access  172.20.0.1:56116 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:47:01 INFO     uvicorn.access  172.20.0.1:56128 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:47:01 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:47:01 INFO     uvicorn.access  172.20.0.1:56116 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:47:02 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 15:47:02 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001633167266845703
+2023-07-14 15:47:02 INFO     uvicorn.access  172.20.0.1:56116 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:47:26 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:47:26 INFO     uvicorn.access  172.20.0.1:39078 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:47:26 INFO     uvicorn.access  172.20.0.1:39080 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:47:26 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:47:26 INFO     uvicorn.access  172.20.0.1:39078 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:47:28 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 15:47:28 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00017690658569335938
+2023-07-14 15:47:28 INFO     uvicorn.access  172.20.0.1:39078 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:47:54 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:47:54 INFO     uvicorn.access  172.20.0.1:45740 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:47:54 INFO     uvicorn.access  172.20.0.1:45744 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:47:54 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:47:54 INFO     uvicorn.access  172.20.0.1:45740 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:47:56 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 15:47:56 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001442432403564453
+2023-07-14 15:47:56 INFO     uvicorn.access  172.20.0.1:45740 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:48:17 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:48:17 INFO     uvicorn.access  172.20.0.1:50778 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:48:17 INFO     uvicorn.access  172.20.0.1:50786 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:48:17 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:48:17 INFO     uvicorn.access  172.20.0.1:50778 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:48:19 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 15:48:19 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001327991485595703
+2023-07-14 15:48:19 INFO     uvicorn.access  172.20.0.1:50778 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:48:53 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:48:53 INFO     uvicorn.access  172.20.0.1:57170 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:48:53 INFO     uvicorn.access  172.20.0.1:57180 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 15:48:53 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 15:48:53 INFO     uvicorn.access  172.20.0.1:57170 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 15:48:55 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 15:48:55 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00019812583923339844
+2023-07-14 15:48:55 INFO     uvicorn.access  172.20.0.1:57170 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:49:37 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 15:49:37 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00017023086547851562
+2023-07-14 15:49:37 INFO     uvicorn.access  172.20.0.1:50818 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:50:18 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 15:50:18 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00012421607971191406
+2023-07-14 15:50:18 INFO     uvicorn.access  172.20.0.1:49910 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:54:40 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:54:40 INFO     uvicorn.access  172.20.0.1:45522 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:55:27 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:55:27 INFO     uvicorn.access  172.20.0.1:55794 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:56:00 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:56:00 INFO     uvicorn.access  172.20.0.1:43288 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:56:27 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:56:27 INFO     uvicorn.access  172.20.0.1:54062 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:56:48 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:56:48 INFO     uvicorn.access  172.20.0.1:35152 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:57:05 INFO     uvicorn.access  172.20.0.1:49802 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:57:07 INFO     uvicorn.access  172.20.0.1:49802 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:58:59 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:58:59 INFO     uvicorn.access  172.20.0.1:60546 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 15:59:01 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 15:59:01 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00019812583923339844
+2023-07-14 15:59:01 INFO     uvicorn.access  172.20.0.1:60546 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 15:59:50 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 15:59:50 INFO     uvicorn.access  172.20.0.1:55546 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:00:14 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 16:00:14 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014781951904296875
+2023-07-14 16:00:14 INFO     uvicorn.access  172.20.0.1:42700 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:00:25 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 16:00:25 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015735626220703125
+2023-07-14 16:00:25 INFO     uvicorn.access  172.20.0.1:56100 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:00:39 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 16:00:39 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00019311904907226562
+2023-07-14 16:00:39 INFO     uvicorn.access  172.20.0.1:37136 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:02:44 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:02:44 INFO     uvicorn.access  172.20.0.1:42836 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:02:46 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 16:02:46 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014162063598632812
+2023-07-14 16:02:46 INFO     uvicorn.access  172.20.0.1:42836 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:14:53 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:14:53 INFO     uvicorn.access  172.20.0.1:51436 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:15:08 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:15:08 INFO     uvicorn.access  172.20.0.1:54030 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:25:48 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:25:48 INFO     uvicorn.access  172.20.0.1:33544 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:30:53 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:30:53 INFO     uvicorn.access  172.20.0.1:40926 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:30:59 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:30:59 INFO     uvicorn.access  172.20.0.1:40928 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:31:03 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:31:03 INFO     uvicorn.access  172.20.0.1:40928 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:31:06 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:31:06 INFO     uvicorn.access  172.20.0.1:40928 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:31:55 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:31:55 INFO     uvicorn.access  172.20.0.1:60334 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:36:40 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:36:40 INFO     uvicorn.access  172.20.0.1:39572 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:37:19 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:37:19 INFO     uvicorn.access  172.20.0.1:46896 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:37:53 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:37:53 INFO     uvicorn.access  172.20.0.1:38480 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:38:13 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:38:13 INFO     uvicorn.access  172.20.0.1:37942 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:39:15 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:39:15 INFO     uvicorn.access  172.20.0.1:36068 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:40:31 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:40:31 INFO     uvicorn.access  172.20.0.1:43004 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:41:16 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 16:41:16 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00012254714965820312
+2023-07-14 16:41:16 INFO     uvicorn.access  172.20.0.1:42214 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:41:20 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 16:41:20 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.000156402587890625
+2023-07-14 16:41:20 INFO     uvicorn.access  172.20.0.1:42214 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:41:25 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 16:41:25 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015044212341308594
+2023-07-14 16:41:25 INFO     uvicorn.access  172.20.0.1:56746 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:41:29 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 16:41:29 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001571178436279297
+2023-07-14 16:41:29 INFO     uvicorn.access  172.20.0.1:56746 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:41:36 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 16:41:36 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018167495727539062
+2023-07-14 16:41:36 INFO     uvicorn.access  172.20.0.1:53928 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:43:22 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.814697265625e-06
+2023-07-14 16:43:22 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00021147727966308594
+2023-07-14 16:43:22 INFO     uvicorn.access  172.20.0.1:47200 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:43:27 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.337860107421875e-06
+2023-07-14 16:43:27 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016617774963378906
+2023-07-14 16:43:27 INFO     uvicorn.access  172.20.0.1:47214 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:43:35 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 16:43:35 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00021505355834960938
+2023-07-14 16:43:35 INFO     uvicorn.access  172.20.0.1:43048 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:43:41 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 16:43:41 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014495849609375
+2023-07-14 16:43:41 INFO     uvicorn.access  172.20.0.1:43054 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:43:48 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 16:43:48 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018310546875
+2023-07-14 16:43:48 INFO     uvicorn.access  172.20.0.1:46682 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:01 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 16:44:01 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001747608184814453
+2023-07-14 16:44:01 INFO     uvicorn.access  172.20.0.1:32858 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:05 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 16:44:05 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014352798461914062
+2023-07-14 16:44:05 INFO     uvicorn.access  172.20.0.1:32858 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:09 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 16:44:09 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016880035400390625
+2023-07-14 16:44:09 INFO     uvicorn.access  172.20.0.1:32858 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:15 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 16:44:15 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001277923583984375
+2023-07-14 16:44:15 INFO     uvicorn.access  172.20.0.1:56888 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:23 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 16:44:23 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014925003051757812
+2023-07-14 16:44:23 INFO     uvicorn.access  172.20.0.1:53464 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:24 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 16:44:24 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014710426330566406
+2023-07-14 16:44:24 INFO     uvicorn.access  172.20.0.1:53464 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:28 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 16:44:28 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001499652862548828
+2023-07-14 16:44:28 INFO     uvicorn.access  172.20.0.1:53464 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:32 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 16:44:32 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00011205673217773438
+2023-07-14 16:44:32 INFO     uvicorn.access  172.20.0.1:38316 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:44:36 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 16:44:36 DEBUG    chromadb.db.index.hnswlib time to run knn query: 9.417533874511719e-05
+2023-07-14 16:44:36 INFO     uvicorn.access  172.20.0.1:38316 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:46:00 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:46:00 INFO     uvicorn.access  172.20.0.1:43688 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:47:42 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:47:42 INFO     uvicorn.access  172.20.0.1:59278 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:48:49 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:48:49 INFO     uvicorn.access  172.20.0.1:49376 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:49:24 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:49:24 INFO     uvicorn.access  172.20.0.1:39118 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 16:50:04 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 16:50:04 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016760826110839844
+2023-07-14 16:50:04 INFO     uvicorn.access  172.20.0.1:47118 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:50:30 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 16:50:30 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00012493133544921875
+2023-07-14 16:50:30 INFO     uvicorn.access  172.20.0.1:45472 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:50:58 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 16:50:58 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.000202178955078125
+2023-07-14 16:50:58 INFO     uvicorn.access  172.20.0.1:39768 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:51:33 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 16:51:33 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001900196075439453
+2023-07-14 16:51:33 INFO     uvicorn.access  172.20.0.1:52262 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:52:00 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 16:52:00 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015473365783691406
+2023-07-14 16:52:00 INFO     uvicorn.access  172.20.0.1:53774 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:52:27 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 16:52:27 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001068115234375
+2023-07-14 16:52:27 INFO     uvicorn.access  172.20.0.1:40706 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:52:59 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 16:52:59 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015115737915039062
+2023-07-14 16:52:59 INFO     uvicorn.access  172.20.0.1:47392 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 16:58:21 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 16:58:21 INFO     uvicorn.access  172.20.0.1:51060 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:00:08 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:00:08 INFO     uvicorn.access  172.20.0.1:60690 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:00:34 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 17:00:34 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001647472381591797
+2023-07-14 17:00:34 INFO     uvicorn.access  172.20.0.1:38500 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:13:38 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:13:38 INFO     uvicorn.access  172.20.0.1:48178 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:13:38 INFO     uvicorn.access  172.20.0.1:48184 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:13:38 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:13:38 INFO     uvicorn.access  172.20.0.1:48178 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:13:38 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 17:13:38 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001494884490966797
+2023-07-14 17:13:38 INFO     uvicorn.access  172.20.0.1:48178 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:13:54 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:13:54 INFO     uvicorn.access  172.20.0.1:46270 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:15:07 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:15:07 INFO     uvicorn.access  172.20.0.1:44668 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:15:07 INFO     uvicorn.access  172.20.0.1:44676 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:15:07 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:15:07 INFO     uvicorn.access  172.20.0.1:44668 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:15:08 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 17:15:08 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001316070556640625
+2023-07-14 17:15:08 INFO     uvicorn.access  172.20.0.1:44668 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:16:29 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:16:29 INFO     uvicorn.access  172.20.0.1:34744 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:16:29 INFO     uvicorn.access  172.20.0.1:34748 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:16:29 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:16:29 INFO     uvicorn.access  172.20.0.1:34744 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:16:31 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.1920928955078125e-06
+2023-07-14 17:16:31 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00011110305786132812
+2023-07-14 17:16:31 INFO     uvicorn.access  172.20.0.1:34744 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:16:50 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:16:50 INFO     uvicorn.access  172.20.0.1:48838 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:17:12 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 17:17:12 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014519691467285156
+2023-07-14 17:17:12 INFO     uvicorn.access  172.20.0.1:34528 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:17:52 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 17:17:52 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015234947204589844
+2023-07-14 17:17:52 INFO     uvicorn.access  172.20.0.1:33108 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:18:15 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:18:15 INFO     uvicorn.access  172.20.0.1:53796 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:20:17 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:20:17 INFO     uvicorn.access  172.20.0.1:49970 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:20:17 INFO     uvicorn.access  172.20.0.1:49984 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:20:17 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:20:17 INFO     uvicorn.access  172.20.0.1:49970 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:20:19 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 17:20:19 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00012612342834472656
+2023-07-14 17:20:19 INFO     uvicorn.access  172.20.0.1:49970 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:20:33 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:20:33 INFO     uvicorn.access  172.20.0.1:35266 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:20:33 INFO     uvicorn.access  172.20.0.1:35280 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:20:33 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:20:33 INFO     uvicorn.access  172.20.0.1:35266 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:20:36 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 17:20:36 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001285076141357422
+2023-07-14 17:20:36 INFO     uvicorn.access  172.20.0.1:35266 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:20:50 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:20:50 INFO     uvicorn.access  172.20.0.1:51936 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:20:50 INFO     uvicorn.access  172.20.0.1:51938 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:20:50 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:20:50 INFO     uvicorn.access  172.20.0.1:51936 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:20:52 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 17:20:52 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001373291015625
+2023-07-14 17:20:52 INFO     uvicorn.access  172.20.0.1:51936 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:23:08 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:23:08 INFO     uvicorn.access  172.20.0.1:52396 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:23:25 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 17:23:25 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018334388732910156
+2023-07-14 17:23:25 INFO     uvicorn.access  172.20.0.1:48432 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:24:19 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 17:24:19 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001461505889892578
+2023-07-14 17:24:19 INFO     uvicorn.access  172.20.0.1:34204 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:24:58 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:24:58 INFO     uvicorn.access  172.20.0.1:34402 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:29:45 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 17:29:45 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001251697540283203
+2023-07-14 17:29:45 INFO     uvicorn.access  172.20.0.1:39168 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:53:41 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:53:41 INFO     uvicorn.access  172.20.0.1:60590 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:53:41 INFO     uvicorn.access  172.20.0.1:60600 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:53:41 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:53:41 INFO     uvicorn.access  172.20.0.1:60590 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:53:41 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 17:53:41 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016736984252929688
+2023-07-14 17:53:41 INFO     uvicorn.access  172.20.0.1:60590 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:54:13 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:54:13 INFO     uvicorn.access  172.20.0.1:44924 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:54:13 INFO     uvicorn.access  172.20.0.1:44930 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:54:14 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:54:14 INFO     uvicorn.access  172.20.0.1:44924 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:54:16 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 17:54:16 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001614093780517578
+2023-07-14 17:54:16 INFO     uvicorn.access  172.20.0.1:44924 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:54:46 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:54:46 INFO     uvicorn.access  172.20.0.1:46686 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:54:46 INFO     uvicorn.access  172.20.0.1:46694 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:54:46 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:54:46 INFO     uvicorn.access  172.20.0.1:46686 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:54:49 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 17:54:49 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014519691467285156
+2023-07-14 17:54:49 INFO     uvicorn.access  172.20.0.1:46686 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:56:15 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:56:15 INFO     uvicorn.access  172.20.0.1:43030 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:56:15 INFO     uvicorn.access  172.20.0.1:43040 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:56:15 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:56:15 INFO     uvicorn.access  172.20.0.1:43030 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:56:17 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.337860107421875e-06
+2023-07-14 17:56:17 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00020647048950195312
+2023-07-14 17:56:17 INFO     uvicorn.access  172.20.0.1:43030 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:56:33 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:56:33 INFO     uvicorn.access  172.20.0.1:51464 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:56:33 INFO     uvicorn.access  172.20.0.1:51476 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 17:56:33 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 17:56:33 INFO     uvicorn.access  172.20.0.1:51464 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 17:56:36 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 17:56:36 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001308917999267578
+2023-07-14 17:56:36 INFO     uvicorn.access  172.20.0.1:51464 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:57:50 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:57:50 INFO     uvicorn.access  172.20.0.1:41890 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:57:55 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 17:57:55 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016069412231445312
+2023-07-14 17:57:55 INFO     uvicorn.access  172.20.0.1:41890 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:58:22 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 4.0531158447265625e-06
+2023-07-14 17:58:22 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0002143383026123047
+2023-07-14 17:58:22 INFO     uvicorn.access  172.20.0.1:51398 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:58:31 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 4.0531158447265625e-06
+2023-07-14 17:58:31 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001690387725830078
+2023-07-14 17:58:31 INFO     uvicorn.access  172.20.0.1:51408 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:58:44 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 17:58:44 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00020503997802734375
+2023-07-14 17:58:44 INFO     uvicorn.access  172.20.0.1:43534 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:59:18 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 17:59:18 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00020074844360351562
+2023-07-14 17:59:18 INFO     uvicorn.access  172.20.0.1:43414 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 17:59:40 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 17:59:40 INFO     uvicorn.access  172.20.0.1:58832 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 17:59:50 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.814697265625e-06
+2023-07-14 17:59:50 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00023889541625976562
+2023-07-14 17:59:50 INFO     uvicorn.access  172.20.0.1:41544 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 18:00:42 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 18:00:42 INFO     uvicorn.access  172.20.0.1:33670 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 18:00:42 INFO     uvicorn.access  172.20.0.1:33676 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 18:00:42 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 18:00:42 INFO     uvicorn.access  172.20.0.1:33670 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 18:00:43 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.337860107421875e-06
+2023-07-14 18:00:43 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015497207641601562
+2023-07-14 18:00:43 INFO     uvicorn.access  172.20.0.1:33670 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 18:01:16 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 18:01:16 INFO     uvicorn.access  172.20.0.1:43356 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 18:01:16 INFO     uvicorn.access  172.20.0.1:43366 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 18:01:16 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 18:01:16 INFO     uvicorn.access  172.20.0.1:43356 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 18:01:18 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 18:01:18 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016689300537109375
+2023-07-14 18:01:18 INFO     uvicorn.access  172.20.0.1:43356 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:08:38 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:08:38 INFO     uvicorn.access  172.20.0.1:57874 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:08:41 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 19:08:41 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014328956604003906
+2023-07-14 19:08:41 INFO     uvicorn.access  172.20.0.1:57874 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:09:13 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 19:09:13 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001583099365234375
+2023-07-14 19:09:13 INFO     uvicorn.access  172.20.0.1:50294 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:10:13 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:10:13 INFO     uvicorn.access  172.20.0.1:47936 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:10:13 INFO     uvicorn.access  172.20.0.1:47948 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:10:13 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:10:13 INFO     uvicorn.access  172.20.0.1:47936 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:10:13 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 19:10:13 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015306472778320312
+2023-07-14 19:10:13 INFO     uvicorn.access  172.20.0.1:47936 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:11:07 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:11:07 INFO     uvicorn.access  172.20.0.1:42512 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:11:07 INFO     uvicorn.access  172.20.0.1:42516 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:11:07 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:11:07 INFO     uvicorn.access  172.20.0.1:42512 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:11:11 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 19:11:11 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001308917999267578
+2023-07-14 19:11:11 INFO     uvicorn.access  172.20.0.1:42512 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:17:05 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:17:05 INFO     uvicorn.access  172.20.0.1:47948 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:17:05 INFO     uvicorn.access  172.20.0.1:47962 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:17:05 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:17:05 INFO     uvicorn.access  172.20.0.1:47948 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:17:05 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.1920928955078125e-06
+2023-07-14 19:17:05 DEBUG    chromadb.db.index.hnswlib time to run knn query: 9.822845458984375e-05
+2023-07-14 19:17:05 INFO     uvicorn.access  172.20.0.1:47948 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:17:46 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:17:46 INFO     uvicorn.access  172.20.0.1:53174 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:17:46 INFO     uvicorn.access  172.20.0.1:53184 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:17:46 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:17:46 INFO     uvicorn.access  172.20.0.1:53174 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:17:49 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 19:17:49 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.000156402587890625
+2023-07-14 19:17:49 INFO     uvicorn.access  172.20.0.1:53174 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:18:17 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:18:17 INFO     uvicorn.access  172.20.0.1:49138 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:18:17 INFO     uvicorn.access  172.20.0.1:49142 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:18:17 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:18:17 INFO     uvicorn.access  172.20.0.1:49138 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:18:19 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 19:18:19 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00021076202392578125
+2023-07-14 19:18:19 INFO     uvicorn.access  172.20.0.1:49138 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:21:15 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:21:15 INFO     uvicorn.access  172.20.0.1:34722 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:21:15 INFO     uvicorn.access  172.20.0.1:34728 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:21:15 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:21:15 INFO     uvicorn.access  172.20.0.1:34722 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:21:17 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 19:21:17 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001685619354248047
+2023-07-14 19:21:17 INFO     uvicorn.access  172.20.0.1:34722 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:21:55 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:21:55 INFO     uvicorn.access  172.20.0.1:41186 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:21:55 INFO     uvicorn.access  172.20.0.1:41192 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:21:55 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:21:55 INFO     uvicorn.access  172.20.0.1:41186 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:21:56 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 19:21:56 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014901161193847656
+2023-07-14 19:21:56 INFO     uvicorn.access  172.20.0.1:41186 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:22:27 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:22:27 INFO     uvicorn.access  172.20.0.1:40294 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:22:27 INFO     uvicorn.access  172.20.0.1:40310 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:22:27 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:22:27 INFO     uvicorn.access  172.20.0.1:40294 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:22:29 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 19:22:29 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001652240753173828
+2023-07-14 19:22:29 INFO     uvicorn.access  172.20.0.1:40294 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:29:03 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:29:03 INFO     uvicorn.access  172.20.0.1:36248 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:29:03 INFO     uvicorn.access  172.20.0.1:36256 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:29:03 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:29:03 INFO     uvicorn.access  172.20.0.1:36248 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:29:03 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 19:29:03 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001881122589111328
+2023-07-14 19:29:03 INFO     uvicorn.access  172.20.0.1:36248 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:30:59 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:30:59 INFO     uvicorn.access  172.20.0.1:40832 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:30:59 INFO     uvicorn.access  172.20.0.1:40842 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:30:59 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:30:59 INFO     uvicorn.access  172.20.0.1:40832 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:31:01 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 19:31:01 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001323223114013672
+2023-07-14 19:31:01 INFO     uvicorn.access  172.20.0.1:40832 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:32:06 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:32:06 INFO     uvicorn.access  172.20.0.1:54884 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:32:06 INFO     uvicorn.access  172.20.0.1:54896 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:32:06 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:32:06 INFO     uvicorn.access  172.20.0.1:54884 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:32:08 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:32:08 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001983642578125
+2023-07-14 19:32:08 INFO     uvicorn.access  172.20.0.1:54884 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:32:30 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:32:30 INFO     uvicorn.access  172.20.0.1:46286 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:32:30 INFO     uvicorn.access  172.20.0.1:46300 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:32:30 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:32:30 INFO     uvicorn.access  172.20.0.1:46286 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:32:31 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.1920928955078125e-06
+2023-07-14 19:32:31 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.000118255615234375
+2023-07-14 19:32:31 INFO     uvicorn.access  172.20.0.1:46286 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:33:01 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:33:01 INFO     uvicorn.access  172.20.0.1:33776 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:33:01 INFO     uvicorn.access  172.20.0.1:33778 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:33:01 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:33:01 INFO     uvicorn.access  172.20.0.1:33776 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:33:05 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 19:33:05 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001430511474609375
+2023-07-14 19:33:05 INFO     uvicorn.access  172.20.0.1:33776 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:33:15 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:33:15 INFO     uvicorn.access  172.20.0.1:39678 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:33:15 INFO     uvicorn.access  172.20.0.1:39694 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:33:15 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:33:15 INFO     uvicorn.access  172.20.0.1:39678 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:33:20 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 19:33:20 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0002396106719970703
+2023-07-14 19:33:20 INFO     uvicorn.access  172.20.0.1:39678 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:34:24 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:34:24 INFO     uvicorn.access  172.20.0.1:47640 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:34:24 INFO     uvicorn.access  172.20.0.1:47656 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:34:24 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:34:24 INFO     uvicorn.access  172.20.0.1:47640 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:34:28 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 19:34:28 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00017881393432617188
+2023-07-14 19:34:28 INFO     uvicorn.access  172.20.0.1:47640 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:36:01 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:36:01 INFO     uvicorn.access  172.20.0.1:45742 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:36:01 INFO     uvicorn.access  172.20.0.1:45756 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:36:01 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:36:01 INFO     uvicorn.access  172.20.0.1:45742 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:36:02 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:36:02 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018024444580078125
+2023-07-14 19:36:02 INFO     uvicorn.access  172.20.0.1:45742 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:36:17 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:36:17 INFO     uvicorn.access  172.20.0.1:56152 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:36:17 INFO     uvicorn.access  172.20.0.1:56160 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:36:17 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:36:17 INFO     uvicorn.access  172.20.0.1:56152 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:36:21 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 19:36:21 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016355514526367188
+2023-07-14 19:36:21 INFO     uvicorn.access  172.20.0.1:56152 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:37:35 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:37:35 INFO     uvicorn.access  172.20.0.1:49296 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:37:35 INFO     uvicorn.access  172.20.0.1:49298 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:37:35 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:37:35 INFO     uvicorn.access  172.20.0.1:49296 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:37:37 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.337860107421875e-06
+2023-07-14 19:37:37 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018525123596191406
+2023-07-14 19:37:37 INFO     uvicorn.access  172.20.0.1:49296 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:38:18 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:38:18 INFO     uvicorn.access  172.20.0.1:44838 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:38:18 INFO     uvicorn.access  172.20.0.1:44850 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:38:18 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:38:18 INFO     uvicorn.access  172.20.0.1:44838 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:38:22 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:38:22 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00019049644470214844
+2023-07-14 19:38:22 INFO     uvicorn.access  172.20.0.1:44838 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:39:19 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:39:19 INFO     uvicorn.access  172.20.0.1:33800 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:39:19 INFO     uvicorn.access  172.20.0.1:33802 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:39:19 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:39:19 INFO     uvicorn.access  172.20.0.1:33800 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:39:21 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.1920928955078125e-06
+2023-07-14 19:39:21 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001227855682373047
+2023-07-14 19:39:21 INFO     uvicorn.access  172.20.0.1:33800 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:39:55 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:39:55 INFO     uvicorn.access  172.20.0.1:54890 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:39:55 INFO     uvicorn.access  172.20.0.1:54906 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:39:55 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:39:55 INFO     uvicorn.access  172.20.0.1:54890 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:39:59 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 19:39:59 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00012874603271484375
+2023-07-14 19:39:59 INFO     uvicorn.access  172.20.0.1:54890 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:40:19 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:40:19 INFO     uvicorn.access  172.20.0.1:52940 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:40:19 INFO     uvicorn.access  172.20.0.1:52952 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:40:19 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:40:19 INFO     uvicorn.access  172.20.0.1:52940 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:40:23 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 19:40:23 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001430511474609375
+2023-07-14 19:40:23 INFO     uvicorn.access  172.20.0.1:52940 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:40:36 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:40:36 INFO     uvicorn.access  172.20.0.1:48654 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:40:36 INFO     uvicorn.access  172.20.0.1:48664 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:40:36 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:40:36 INFO     uvicorn.access  172.20.0.1:48654 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:40:38 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:40:38 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0002110004425048828
+2023-07-14 19:40:38 INFO     uvicorn.access  172.20.0.1:48654 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:40:48 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:40:48 INFO     uvicorn.access  172.20.0.1:33216 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:40:48 INFO     uvicorn.access  172.20.0.1:33226 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:40:48 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:40:48 INFO     uvicorn.access  172.20.0.1:33216 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:40:51 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 19:40:51 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00013756752014160156
+2023-07-14 19:40:51 INFO     uvicorn.access  172.20.0.1:33216 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:41:25 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:41:25 INFO     uvicorn.access  172.20.0.1:44968 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:41:25 INFO     uvicorn.access  172.20.0.1:44970 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:41:25 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:41:25 INFO     uvicorn.access  172.20.0.1:44968 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:41:27 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:41:27 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001800060272216797
+2023-07-14 19:41:27 INFO     uvicorn.access  172.20.0.1:44968 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:41:46 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:41:46 INFO     uvicorn.access  172.20.0.1:52650 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:41:46 INFO     uvicorn.access  172.20.0.1:52666 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:41:46 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:41:46 INFO     uvicorn.access  172.20.0.1:52650 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:41:48 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 19:41:48 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016045570373535156
+2023-07-14 19:41:48 INFO     uvicorn.access  172.20.0.1:52650 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:42:07 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:42:07 INFO     uvicorn.access  172.20.0.1:44780 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:42:07 INFO     uvicorn.access  172.20.0.1:44796 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:42:07 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:42:07 INFO     uvicorn.access  172.20.0.1:44780 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:42:10 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 19:42:10 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00026702880859375
+2023-07-14 19:42:10 INFO     uvicorn.access  172.20.0.1:44780 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:42:42 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:42:42 INFO     uvicorn.access  172.20.0.1:40502 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:42:42 INFO     uvicorn.access  172.20.0.1:40514 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:42:42 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:42:42 INFO     uvicorn.access  172.20.0.1:40502 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:42:44 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 19:42:44 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001671314239501953
+2023-07-14 19:42:44 INFO     uvicorn.access  172.20.0.1:40502 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:42:55 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:42:55 INFO     uvicorn.access  172.20.0.1:36832 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:42:55 INFO     uvicorn.access  172.20.0.1:36840 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:42:55 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:42:55 INFO     uvicorn.access  172.20.0.1:36832 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:42:57 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 19:42:57 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015163421630859375
+2023-07-14 19:42:57 INFO     uvicorn.access  172.20.0.1:36832 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:43:07 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:43:07 INFO     uvicorn.access  172.20.0.1:36492 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:43:07 INFO     uvicorn.access  172.20.0.1:36506 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:43:07 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:43:07 INFO     uvicorn.access  172.20.0.1:36492 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:43:10 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:43:10 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001621246337890625
+2023-07-14 19:43:10 INFO     uvicorn.access  172.20.0.1:36492 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:43:27 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:43:27 INFO     uvicorn.access  172.20.0.1:51718 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:43:27 INFO     uvicorn.access  172.20.0.1:51728 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:43:27 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:43:27 INFO     uvicorn.access  172.20.0.1:51718 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:43:29 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 19:43:29 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00020623207092285156
+2023-07-14 19:43:29 INFO     uvicorn.access  172.20.0.1:51718 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:43:49 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:43:49 INFO     uvicorn.access  172.20.0.1:55532 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:43:49 INFO     uvicorn.access  172.20.0.1:55536 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:43:49 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:43:49 INFO     uvicorn.access  172.20.0.1:55532 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:43:51 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 19:43:51 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00011420249938964844
+2023-07-14 19:43:51 INFO     uvicorn.access  172.20.0.1:55532 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:44:01 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:44:01 INFO     uvicorn.access  172.20.0.1:37702 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:44:01 INFO     uvicorn.access  172.20.0.1:37714 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:44:01 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:44:01 INFO     uvicorn.access  172.20.0.1:37702 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:44:03 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 19:44:03 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00017213821411132812
+2023-07-14 19:44:03 INFO     uvicorn.access  172.20.0.1:37702 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:44:14 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:44:14 INFO     uvicorn.access  172.20.0.1:46364 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:44:14 INFO     uvicorn.access  172.20.0.1:46374 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:44:14 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:44:14 INFO     uvicorn.access  172.20.0.1:46364 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:44:17 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:44:17 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015306472778320312
+2023-07-14 19:44:17 INFO     uvicorn.access  172.20.0.1:46364 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:44:29 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:44:29 INFO     uvicorn.access  172.20.0.1:53464 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:44:29 INFO     uvicorn.access  172.20.0.1:53474 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:44:29 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:44:29 INFO     uvicorn.access  172.20.0.1:53464 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:44:32 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 19:44:32 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018334388732910156
+2023-07-14 19:44:32 INFO     uvicorn.access  172.20.0.1:53464 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:44:54 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:44:54 INFO     uvicorn.access  172.20.0.1:52928 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:44:54 INFO     uvicorn.access  172.20.0.1:52934 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:44:54 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:44:54 INFO     uvicorn.access  172.20.0.1:52928 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:44:58 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.814697265625e-06
+2023-07-14 19:44:58 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00022745132446289062
+2023-07-14 19:44:58 INFO     uvicorn.access  172.20.0.1:52928 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:45:18 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:45:18 INFO     uvicorn.access  172.20.0.1:39334 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:45:18 INFO     uvicorn.access  172.20.0.1:39344 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:45:18 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:45:18 INFO     uvicorn.access  172.20.0.1:39334 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:45:21 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 19:45:21 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014209747314453125
+2023-07-14 19:45:21 INFO     uvicorn.access  172.20.0.1:39334 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:45:34 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:45:34 INFO     uvicorn.access  172.20.0.1:55610 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:45:34 INFO     uvicorn.access  172.20.0.1:55614 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:45:34 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:45:34 INFO     uvicorn.access  172.20.0.1:55610 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:45:36 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 19:45:36 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016617774963378906
+2023-07-14 19:45:36 INFO     uvicorn.access  172.20.0.1:55610 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:46:13 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:46:13 INFO     uvicorn.access  172.20.0.1:38196 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:46:13 INFO     uvicorn.access  172.20.0.1:38200 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:46:13 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:46:13 INFO     uvicorn.access  172.20.0.1:38196 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:46:14 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 19:46:14 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001461505889892578
+2023-07-14 19:46:14 INFO     uvicorn.access  172.20.0.1:38196 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:46:36 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:46:36 INFO     uvicorn.access  172.20.0.1:56218 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:46:36 INFO     uvicorn.access  172.20.0.1:56234 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:46:36 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:46:36 INFO     uvicorn.access  172.20.0.1:56218 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:46:39 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 19:46:39 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016236305236816406
+2023-07-14 19:46:39 INFO     uvicorn.access  172.20.0.1:56218 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:46:59 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:46:59 INFO     uvicorn.access  172.20.0.1:38028 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:46:59 INFO     uvicorn.access  172.20.0.1:38044 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:46:59 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:46:59 INFO     uvicorn.access  172.20.0.1:38028 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:47:01 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:47:01 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00017690658569335938
+2023-07-14 19:47:01 INFO     uvicorn.access  172.20.0.1:38028 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:50:08 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:50:08 INFO     uvicorn.access  172.20.0.1:46300 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:50:08 INFO     uvicorn.access  172.20.0.1:46316 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 19:50:08 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 19:50:08 INFO     uvicorn.access  172.20.0.1:46300 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 19:50:12 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 19:50:12 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015115737915039062
+2023-07-14 19:50:12 INFO     uvicorn.access  172.20.0.1:46300 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:54:20 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 19:54:20 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00019121170043945312
+2023-07-14 19:54:20 INFO     uvicorn.access  172.20.0.1:50668 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:54:54 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 19:54:54 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0002162456512451172
+2023-07-14 19:54:54 INFO     uvicorn.access  172.20.0.1:50830 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 19:56:44 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:56:44 INFO     uvicorn.access  172.20.0.1:48958 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 19:58:35 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 19:58:35 INFO     uvicorn.access  172.20.0.1:41786 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:02:28 INFO     uvicorn.access  172.20.0.1:54814 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:02:43 INFO     uvicorn.access  172.20.0.1:53388 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:03:52 INFO     uvicorn.access  172.20.0.1:35614 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:04:01 INFO     uvicorn.access  172.20.0.1:35618 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:04:03 INFO     uvicorn.access  172.20.0.1:36994 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:04:05 INFO     uvicorn.access  172.20.0.1:36996 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:04:24 INFO     uvicorn.access  172.20.0.1:51998 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:04:57 INFO     uvicorn.access  172.20.0.1:41408 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:05:29 INFO     uvicorn.access  172.20.0.1:59360 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:11:38 INFO     uvicorn.access  172.20.0.1:43510 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:11:38 INFO     uvicorn.access  172.20.0.1:43496 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:11:38 INFO     uvicorn.access  172.20.0.1:43514 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:19:39 INFO     uvicorn.access  172.20.0.1:47544 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:19:39 INFO     uvicorn.access  172.20.0.1:47548 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:19:39 INFO     uvicorn.access  172.20.0.1:47564 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:20:18 INFO     uvicorn.access  172.20.0.1:48186 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:20:18 INFO     uvicorn.access  172.20.0.1:48192 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:20:18 INFO     uvicorn.access  172.20.0.1:48196 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:21:20 INFO     uvicorn.access  172.20.0.1:34314 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:21:20 INFO     uvicorn.access  172.20.0.1:34330 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:21:20 INFO     uvicorn.access  172.20.0.1:34332 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:21:29 INFO     uvicorn.access  172.20.0.1:52540 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:21:29 INFO     uvicorn.access  172.20.0.1:52542 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:21:29 INFO     uvicorn.access  172.20.0.1:52558 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:22:06 INFO     uvicorn.access  172.20.0.1:45176 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:22:06 INFO     uvicorn.access  172.20.0.1:45190 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:22:06 INFO     uvicorn.access  172.20.0.1:45198 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:22:42 INFO     uvicorn.access  172.20.0.1:56310 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:22:42 INFO     uvicorn.access  172.20.0.1:56324 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:23:48 INFO     uvicorn.access  172.20.0.1:55154 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:23:48 INFO     uvicorn.access  172.20.0.1:55160 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:23:48 INFO     uvicorn.access  172.20.0.1:55166 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:32:15 INFO     uvicorn.access  172.20.0.1:32976 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:32:15 INFO     uvicorn.access  172.20.0.1:32982 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:32:15 INFO     uvicorn.access  172.20.0.1:32986 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:32:26 INFO     uvicorn.access  172.20.0.1:51540 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:32:26 INFO     uvicorn.access  172.20.0.1:51550 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:32:26 INFO     uvicorn.access  172.20.0.1:51566 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:35:42 INFO     uvicorn.access  172.20.0.1:40944 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:35:42 INFO     uvicorn.access  172.20.0.1:40952 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:35:42 INFO     uvicorn.access  172.20.0.1:40944 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:46:00 INFO     uvicorn.access  172.20.0.1:57178 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:46:00 INFO     uvicorn.access  172.20.0.1:57162 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:46:00 INFO     uvicorn.access  172.20.0.1:57184 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:46:00 INFO     uvicorn.access  172.20.0.1:57166 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:46:00 INFO     uvicorn.access  172.20.0.1:57190 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:48:18 INFO     uvicorn.access  172.20.0.1:37654 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:48:18 INFO     uvicorn.access  172.20.0.1:37658 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:48:18 INFO     uvicorn.access  172.20.0.1:37676 - "GET /api/v1/collections/mitrol-faq HTTP/1.1" 200
+2023-07-14 20:48:18 INFO     uvicorn.access  172.20.0.1:37670 - "GET /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:48:18 INFO     uvicorn.access  172.20.0.1:37684 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 20:57:44 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 20:57:44 INFO     uvicorn.access  172.20.0.1:42828 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 20:58:07 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 20:58:07 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00013971328735351562
+2023-07-14 20:58:07 INFO     uvicorn.access  172.20.0.1:57870 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 20:59:12 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 20:59:12 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018525123596191406
+2023-07-14 20:59:12 INFO     uvicorn.access  172.20.0.1:42796 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:00:13 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:00:13 INFO     uvicorn.access  172.20.0.1:32924 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:01:15 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:01:15 INFO     uvicorn.access  172.20.0.1:42492 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:01:44 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 21:01:44 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001900196075439453
+2023-07-14 21:01:44 INFO     uvicorn.access  172.20.0.1:43220 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:04:04 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 21:04:04 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.000171661376953125
+2023-07-14 21:04:04 INFO     uvicorn.access  172.20.0.1:59898 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:04:57 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 21:04:57 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00020766258239746094
+2023-07-14 21:04:57 INFO     uvicorn.access  172.20.0.1:52420 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:05:20 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 21:05:20 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001418590545654297
+2023-07-14 21:05:20 INFO     uvicorn.access  172.20.0.1:34144 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:05:45 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 21:05:45 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00013399124145507812
+2023-07-14 21:05:45 INFO     uvicorn.access  172.20.0.1:45456 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:06:03 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 21:06:03 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0002155303955078125
+2023-07-14 21:06:03 INFO     uvicorn.access  172.20.0.1:33632 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:06:30 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:06:30 INFO     uvicorn.access  172.20.0.1:50104 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:06:33 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 21:06:33 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0002269744873046875
+2023-07-14 21:06:33 INFO     uvicorn.access  172.20.0.1:50104 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:09:26 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.0994415283203125e-06
+2023-07-14 21:09:26 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0002155303955078125
+2023-07-14 21:09:26 INFO     uvicorn.access  172.20.0.1:47068 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:12:35 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:12:35 INFO     uvicorn.access  172.20.0.1:37978 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:12:35 INFO     uvicorn.access  172.20.0.1:37984 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:12:35 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:12:35 INFO     uvicorn.access  172.20.0.1:37978 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:12:36 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 21:12:36 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00014162063598632812
+2023-07-14 21:12:36 INFO     uvicorn.access  172.20.0.1:37978 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:12:49 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:12:49 INFO     uvicorn.access  172.20.0.1:40416 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:12:49 INFO     uvicorn.access  172.20.0.1:40422 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:12:49 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:12:49 INFO     uvicorn.access  172.20.0.1:40416 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:12:51 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 21:12:51 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001304149627685547
+2023-07-14 21:12:51 INFO     uvicorn.access  172.20.0.1:40416 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:12:58 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:12:58 INFO     uvicorn.access  172.20.0.1:57222 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:12:58 INFO     uvicorn.access  172.20.0.1:57236 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:12:58 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:12:58 INFO     uvicorn.access  172.20.0.1:57222 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:13:00 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 21:13:00 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001842975616455078
+2023-07-14 21:13:00 INFO     uvicorn.access  172.20.0.1:57222 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:13:26 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:13:26 INFO     uvicorn.access  172.20.0.1:45798 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:13:26 INFO     uvicorn.access  172.20.0.1:45802 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:13:26 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:13:26 INFO     uvicorn.access  172.20.0.1:45798 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:13:27 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 21:13:27 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016880035400390625
+2023-07-14 21:13:27 INFO     uvicorn.access  172.20.0.1:45798 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:13:43 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:13:43 INFO     uvicorn.access  172.20.0.1:50306 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:13:43 INFO     uvicorn.access  172.20.0.1:50310 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:13:43 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:13:43 INFO     uvicorn.access  172.20.0.1:50306 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:13:45 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.9073486328125e-06
+2023-07-14 21:13:45 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001480579376220703
+2023-07-14 21:13:45 INFO     uvicorn.access  172.20.0.1:50306 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:13:57 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:13:57 INFO     uvicorn.access  172.20.0.1:48142 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:13:57 INFO     uvicorn.access  172.20.0.1:48154 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:13:57 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:13:57 INFO     uvicorn.access  172.20.0.1:48142 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:13:58 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.1457672119140625e-06
+2023-07-14 21:13:58 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00016999244689941406
+2023-07-14 21:13:58 INFO     uvicorn.access  172.20.0.1:48142 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:14:03 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:14:03 INFO     uvicorn.access  172.20.0.1:50784 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:14:03 INFO     uvicorn.access  172.20.0.1:50792 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:14:03 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:14:03 INFO     uvicorn.access  172.20.0.1:50784 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:14:05 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 21:14:05 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00017309188842773438
+2023-07-14 21:14:05 INFO     uvicorn.access  172.20.0.1:50784 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:14:42 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:14:42 INFO     uvicorn.access  172.20.0.1:44868 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:14:42 INFO     uvicorn.access  172.20.0.1:44876 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:14:42 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:14:42 INFO     uvicorn.access  172.20.0.1:44868 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:14:42 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 21:14:42 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001308917999267578
+2023-07-14 21:14:42 INFO     uvicorn.access  172.20.0.1:44868 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:15:16 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:15:16 INFO     uvicorn.access  172.20.0.1:55182 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:15:16 INFO     uvicorn.access  172.20.0.1:55190 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:15:16 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:15:16 INFO     uvicorn.access  172.20.0.1:55182 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:15:20 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 21:15:20 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00012612342834472656
+2023-07-14 21:15:20 INFO     uvicorn.access  172.20.0.1:55182 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:15:50 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.337860107421875e-06
+2023-07-14 21:15:50 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00017786026000976562
+2023-07-14 21:15:50 INFO     uvicorn.access  172.20.0.1:32786 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:16:17 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.6226043701171875e-06
+2023-07-14 21:16:17 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00023674964904785156
+2023-07-14 21:16:17 INFO     uvicorn.access  172.20.0.1:39496 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:16:43 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 21:16:43 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00013947486877441406
+2023-07-14 21:16:43 INFO     uvicorn.access  172.20.0.1:51754 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:16:53 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 21:16:53 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001971721649169922
+2023-07-14 21:16:53 INFO     uvicorn.access  172.20.0.1:51896 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:17:21 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.5762786865234375e-06
+2023-07-14 21:17:21 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00019311904907226562
+2023-07-14 21:17:21 INFO     uvicorn.access  172.20.0.1:51182 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:20:44 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:20:44 INFO     uvicorn.access  172.20.0.1:39844 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:21:14 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 21:21:14 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00019741058349609375
+2023-07-14 21:21:14 INFO     uvicorn.access  172.20.0.1:51148 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:22:21 INFO     uvicorn.error   Shutting down
+2023-07-14 21:22:21 INFO     uvicorn.error   Waiting for application shutdown.
+2023-07-14 21:22:21 INFO     uvicorn.error   Application shutdown complete.
+2023-07-14 21:22:21 INFO     uvicorn.error   Finished server process [8]
+2023-07-14 21:22:22 INFO     uvicorn.error   Stopping reloader process [1]
+2023-07-14 21:22:23 INFO     uvicorn.error   Will watch for changes in these directories: ['/chroma']
+2023-07-14 21:22:23 INFO     uvicorn.error   Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+2023-07-14 21:22:23 INFO     uvicorn.error   Started reloader process [1] using WatchFiles
+2023-07-14 21:22:23 INFO     chromadb.telemetry.posthog Anonymized telemetry enabled. See https://docs.trychroma.com/telemetry for more information.
+2023-07-14 21:22:24 DEBUG    chromadb.config Starting component System
+2023-07-14 21:22:24 DEBUG    chromadb.config Starting component Posthog
+2023-07-14 21:22:24 DEBUG    chromadb.config Starting component Clickhouse
+2023-07-14 21:22:24 DEBUG    chromadb.config Starting component LocalAPI
+2023-07-14 21:22:24 INFO     uvicorn.error   Started server process [8]
+2023-07-14 21:22:24 INFO     uvicorn.error   Waiting for application startup.
+2023-07-14 21:22:24 INFO     uvicorn.error   Application startup complete.
+2023-07-14 21:23:06 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 9.5367431640625e-07
+2023-07-14 21:23:06 DEBUG    chromadb.db.index.hnswlib time to run knn query: 9.72747802734375e-05
+2023-07-14 21:23:06 INFO     uvicorn.access  172.20.0.1:46904 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:23:29 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.337860107421875e-06
+2023-07-14 21:23:29 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00021457672119140625
+2023-07-14 21:23:29 INFO     uvicorn.access  172.20.0.1:36180 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:24:05 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 21:24:05 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001633167266845703
+2023-07-14 21:24:05 INFO     uvicorn.access  172.20.0.1:48990 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:24:17 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 3.814697265625e-06
+2023-07-14 21:24:17 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00021123886108398438
+2023-07-14 21:24:17 INFO     uvicorn.access  172.20.0.1:52910 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:24:37 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 21:24:37 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001800060272216797
+2023-07-14 21:24:37 INFO     uvicorn.access  172.20.0.1:57306 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:25:34 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.86102294921875e-06
+2023-07-14 21:25:34 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018835067749023438
+2023-07-14 21:25:34 INFO     uvicorn.access  172.20.0.1:38956 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:28:59 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:28:59 INFO     uvicorn.access  172.20.0.1:57322 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:28:59 INFO     uvicorn.access  172.20.0.1:57336 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:28:59 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:28:59 INFO     uvicorn.access  172.20.0.1:57322 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:28:59 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 21:28:59 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00015592575073242188
+2023-07-14 21:28:59 INFO     uvicorn.access  172.20.0.1:57322 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:29:15 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:29:15 INFO     uvicorn.access  172.20.0.1:50044 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:29:15 INFO     uvicorn.access  172.20.0.1:50056 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:29:15 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:29:15 INFO     uvicorn.access  172.20.0.1:50044 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:29:16 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 2.384185791015625e-06
+2023-07-14 21:29:16 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.00018906593322753906
+2023-07-14 21:29:16 INFO     uvicorn.access  172.20.0.1:50044 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:29:24 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:29:24 INFO     uvicorn.access  172.20.0.1:58352 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:29:24 INFO     uvicorn.access  172.20.0.1:58354 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:29:24 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:29:24 INFO     uvicorn.access  172.20.0.1:58352 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:29:26 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.6689300537109375e-06
+2023-07-14 21:29:26 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001354217529296875
+2023-07-14 21:29:26 INFO     uvicorn.access  172.20.0.1:58352 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 21:29:44 INFO     chromadb.db.clickhouse collection with name mitrol-faq already exists, returning existing collection
+2023-07-14 21:29:44 INFO     uvicorn.access  172.20.0.1:53704 - "POST /api/v1/collections HTTP/1.1" 200
+2023-07-14 21:29:44 INFO     uvicorn.access  172.20.0.1:53718 - "GET /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/count HTTP/1.1" 200
+2023-07-14 21:29:44 DEBUG    chromadb.db.index.hnswlib Index saved to .chroma/index/index.bin
+2023-07-14 21:29:44 INFO     uvicorn.access  172.20.0.1:53704 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/add HTTP/1.1" 201
+2023-07-14 21:29:47 DEBUG    chromadb.db.index.hnswlib time to pre process our knn query: 1.430511474609375e-06
+2023-07-14 21:29:47 DEBUG    chromadb.db.index.hnswlib time to run knn query: 0.0001380443572998047
+2023-07-14 21:29:47 INFO     uvicorn.access  172.20.0.1:53704 - "POST /api/v1/collections/342069e3-081b-4ffa-a736-7f47d7943c90/query HTTP/1.1" 200
+2023-07-14 22:41:23 INFO     uvicorn.error   Shutting down
+2023-07-14 22:41:24 INFO     uvicorn.error   Waiting for application shutdown.
+2023-07-14 22:41:24 INFO     uvicorn.error   Application shutdown complete.
+2023-07-14 22:41:24 INFO     uvicorn.error   Finished server process [8]
+2023-07-14 22:41:24 INFO     uvicorn.error   Stopping reloader process [1]
